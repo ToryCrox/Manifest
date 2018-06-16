@@ -3,8 +3,7 @@
 
   <!-- remote: name 名称，fetch 远程地址。可以有多个remote，通过project.remote可指定不同的remote -->
   <remote name="origin"
-          fetch="git@git.hetaozs.com:mimikkoui_system/"
-          review="git@git.hetaozs.com:mimikkoui_system/" />
+          fetch="https://git.hetaozs.com/mimikkoui_system/" />
 
   <!-- default: revision 指定分支，remote 指定remote name，sync-j 同步线程数 -->
   <default revision="master"
@@ -12,6 +11,6 @@
            sync-j="4" />
 
   <!-- project：path 本地相对路径，name 远程相对路径，完整路径为 remote.fetch + project.name -->
-  <project path="./" name="MimikkoUI" />
+  <project path="." name="MimikkoUI" />
   <project path="common/base" name="base" />
 </manifest>
