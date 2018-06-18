@@ -17,7 +17,6 @@
   <project path="common/mimikkoui_toolkit_library" name="mimikkoui_toolkit_library" />
   <project path="common/mimikkoui_ui_toolkit_library" name="mimikkoui_ui_toolkit_library" />
   <project path="common/mimikkoui_desktop_resolver_library" name="mimikkoui_desktop_resolver_library" />
-  <project path="common/mimikkoui_dynamic_overlay_library" name="mimikkoui_dynamic_overlay_library" />
   
   
   <project path="features/checkin_feature" name="checkin_feature" />
