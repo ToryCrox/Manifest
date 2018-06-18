@@ -6,11 +6,47 @@
           fetch="https://git.hetaozs.com/mimikkoui_system/" />
 
   <!-- default: revision 指定分支，remote 指定remote name，sync-j 同步线程数 -->
-  <default revision="master"
+  <default revision="2.0-alpha"
            remote="origin"
            sync-j="4" />
 
   <!-- project：path 本地相对路径，name 远程相对路径，完整路径为 remote.fetch + project.name -->
   <project path="." name="MimikkoUI" />
   <project path="common/base" name="base" />
+  <project path="common/mimikkoui_dynamic_overlay_library" name="mimikkoui_dynamic_overlay_library" />
+  <project path="common/mimikkoui_toolkit_library" name="mimikkoui_toolkit_library" />
+  <project path="common/mimikkoui_ui_toolkit_library" name="mimikkoui_ui_toolkit_library" />
+  <project path="common/mimikkoui_desktop_resolver_library" name="mimikkoui_desktop_resolver_library" />
+  <project path="common/mimikkoui_dynamic_overlay_library" name="mimikkoui_dynamic_overlay_library" />
+  
+  
+  <project path="features/checkin_feature" name="checkin_feature" />
+  <project path="features/information_feature" name="information_feature" />
+  <project path="features/launcher_core_feature" name="launcher_core_feature" />
+  <project path="features/launcher_info_assistant_feature" name="launcher_info_assistant_feature" />
+  <project path="features/launcher_init_feature" name="launcher_init_feature" />
+  <project path="features/launcher_settings_feature" name="launcher_settings_feature" />
+  <project path="features/launcher3_core_feature" name="launcher3_core_feature" />
+  <project path="features/schedule_feature" name="schedule_feature" />
+  <project path="features/servant_feature" name="servant_feature" />
+  <project path="features/share_feature" name="share_feature" />
+  <project path="features/store_feature" name="store_feature" />
+  <project path="features/user_feature" name="user_feature" />
+  <project path="features/wallpaper_feature" name="wallpaper_feature" />
+  <project path="features/weather_widget_feature" name="weather_widget_feature" />
+  
+  
+  <project path="libraries/schedule_library" name="schedule_library" />
+  <project path="libraries/user_library" name="user_library" />
+  
+  
+  <project path="services/information_service" name="information_service" />
+  <project path="services/launcher_core_service" name="launcher_core_service" />
+  <project path="services/launcher_info_assistant_service" name="launcher_info_assistant_service" />
+  <project path="services/launcher_settings_service" name="launcher_settings_service" />
+  <project path="services/servant_service" name="servant_service" />
+  <project path="services/share_service" name="share_service" />
+  <project path="services/user_service" name="user_service" />
+  <project path="services/wallpaper_service" name="wallpaper_service" />
+  <project path="services/weather_widget_service" name="weather_widget_service" />
 </manifest>
