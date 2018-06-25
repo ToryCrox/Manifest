@@ -6,7 +6,7 @@
           fetch="https://git.hetaozs.com/mimikkoui_system/" />
 
   <!-- default: revision 指定分支，remote 指定remote name，sync-j 同步线程数 -->
-  <default revision="2.0-alpha"
+  <default revision="2.0"
            remote="origin"
            sync-j="4" />
 
@@ -17,11 +17,12 @@
   <project path="common/mimikkoui_toolkit_library" name="mimikkoui_toolkit_library" />
   <project path="common/mimikkoui_ui_toolkit_library" name="mimikkoui_ui_toolkit_library" />
   <project path="common/mimikkoui_desktop_resolver_library" name="mimikkoui_desktop_resolver_library" />
+  <project path="common/processor" name="processor" />
   
   
   <project path="features/checkin_feature" name="checkin_feature" />
   <project path="features/information_feature" name="information_feature" />
-  <project path="features/launcher_core_feature" name="launcher_core_feature" />
+  <!-- <project path="features/launcher_core_feature" name="launcher_core_feature" /> -->
   <project path="features/launcher_info_assistant_feature" name="launcher_info_assistant_feature" />
   <project path="features/launcher_init_feature" name="launcher_init_feature" />
   <project path="features/launcher_settings_feature" name="launcher_settings_feature" />
